@@ -1,0 +1,55 @@
+:root {
+  --nav-bar: #b30000;
+}
+
+.navbar-top {
+  background-color: var(--nav-bar);
+}
+
+/* change the brand text color */
+.navbar-top .navbar-brand {
+  color: #ffffff;
+}
+
+/* change the brand hover color */
+.navbar-top .navbar-brand:hover {
+  color: #ffffff;
+}
+
+/* change the links color */
+.navbar-top .navbar-nav .nav-link {
+  color: #bfbfbf;
+}
+
+/* change the color of active or hovered links */
+.navbar-top .nav-item.active .nav-link,
+.navbar-top .nav-item:hover .nav-link {
+  color: #ffffff;
+}
+
+.carousel-caption {
+  color: #000000;
+  text-shadow: 0px 0px 2px #ffffff;
+}
+
+.custom-jumbotron {
+  background-color: var(--nav-bar);
+  color: #ffffff;
+}
+
+.navbar-bottom {
+  background-color: var(--nav-bar);
+}
+
+/* change the links color */
+.navbar-bottom {
+  color: #bfbfbf;
+}
+
+.center-block {
+   text-align:center
+}
+
+.top-buffer {
+  margin-top:20px;
+}
