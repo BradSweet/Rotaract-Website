@@ -1,9 +1,28 @@
 :root {
   --nav-bar: #b30000;
+  --background-color: #ffffff;
+  --column-color: #ffffff;
 }
 
+/* background color */
+body {
+  background-color: var(--background-color);
+}
+
+/* column color */
+.column-color {
+  background-color: var(--column-color);
+}
+
+/* navbar color */
 .navbar-top {
   background-color: var(--nav-bar);
+}
+
+.navbar-bottom  {
+  color: #bfbfbf;
+  background-color: var(--nav-bar);
+  font-size: 70%;
 }
 
 /* change the brand text color */
@@ -27,29 +46,29 @@
   color: #ffffff;
 }
 
-.carousel-caption {
-  color: #000000;
-  text-shadow: 0px 0px 2px #ffffff;
+/* change the links color */
+.navbar-top .nav-link {
+  color: #bfbfbf;
 }
 
+/* change the color of active or hovered links */
+.navbar-top .nav-link.active,
+.navbar-top .nav-link:hover {
+  color: #ffffff;
+}
+
+/* jumbotron colour */
 .custom-jumbotron {
   background-color: var(--nav-bar);
   color: #ffffff;
 }
 
-.navbar-bottom {
-  background-color: var(--nav-bar);
+/* add space above */
+.top-buffer {
+  margin-top:20px;
 }
 
 /* change the links color */
-.navbar-bottom {
+.custom-jumbotron .heading-color {
   color: #bfbfbf;
-}
-
-.center-block {
-   text-align:center
-}
-
-.top-buffer {
-  margin-top:20px;
 }
